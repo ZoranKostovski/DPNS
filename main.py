@@ -5,7 +5,7 @@ from models.color_moments import compute_color_moments
 from models.correlogram import compute_correlogram
 from models.histogram import compute_histogram
 
-# Example normalization ranges (adjust as needed)
+
 COLOR_MOMENTS_MIN, COLOR_MOMENTS_MAX = 0, 10000
 HISTOGRAM_MIN, HISTOGRAM_MAX = 0, 5
 CORRELOGRAM_MIN, CORRELOGRAM_MAX = 0, 1
